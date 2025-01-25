@@ -1,0 +1,1 @@
+# Floxify.ai - Landing page copyright @2025.
