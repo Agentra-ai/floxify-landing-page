@@ -4,6 +4,8 @@ import Link from "next/link";
 // import Logo from "./logo";
 import FloxifyLogo from "@/public/floxify-logo.png"
 import Image from "next/image";
+// import fff from "../../../public/floxify-logo.png"
+
 
 export default function Header() {
   return (
