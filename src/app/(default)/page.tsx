@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Floxify - home",
   description: "GenAI platform",
   icons : {
-    icon : "../../../public/floxify-logo.png",
+    icon : "/floxify-logo.png",
   }
 };
 

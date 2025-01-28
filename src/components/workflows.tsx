@@ -3,11 +3,24 @@ import WorflowImg01 from "@/public/images/workflow-01.png";
 import WorflowImg02 from "@/public/images/workflow-02.png";
 import WorflowImg03 from "@/public/images/workflow-03.png";
 import Spotlight from "@/components/spotlight";
+import BlurredShape from "@/public/images/blurred-shape.svg";
 
 export default function Workflows() {
   return (
     <section>
       <div className="max-w-6xl px-4 mx-auto sm:px-6">
+      <div
+            className="pointer-events-none absolute left-1/2 top-[420px] md:top-[830px] -z-10 -translate-x-1/3 "
+            aria-hidden="true"
+          >
+            <Image
+              className="max-w-none"
+              src={BlurredShape}
+              width={760}
+              height={668}
+              alt="Blurred shape"
+            />
+          </div>
         <div className="pb-12 md:pb-20">
           {/* Section header */}
           <div className="max-w-3xl pb-12 mx-auto text-center md:pb-20">
